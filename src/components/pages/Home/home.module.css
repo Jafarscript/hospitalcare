@@ -1,0 +1,23 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url('https://res.cloudinary.com/dvo8xhx6r/image/upload/v1631911530/Nursing_20Shortage_20JV_20TT_2016_bdyfxf.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.companyName{
+    font-size: 50px;
+    color: #fff;
+}
+
+.motto{
+    font-size: 15px;
+    color: #fff;
+    font-style: italic;
+    font-weight: 500;
+}

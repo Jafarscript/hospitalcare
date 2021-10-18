@@ -1,0 +1,72 @@
+.layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 50px;
+}
+
+.left{
+    margin-right: 20px;
+}
+.head{
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: indigo;
+}
+.about{
+    color: rgb(73, 73, 73);
+    font-size: 18px;
+    color: rgb(60, 15, 92);
+}
+
+.about p{
+    margin-bottom: 20px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.organ{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.organ span{
+    margin-left: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.details i{
+    font-size: 50px;
+    color: indigo;
+    margin-bottom: 10px;
+}
+
+.purple i{
+    color: rgb(91, 238, 238);
+}
+
+.green i{
+    color: rgb(166, 236, 61);
+}
+
+.learn{
+    padding: 20px 30px ;
+    background-color: indigo;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.learn:hover{
+    background-color: #fff;
+    border: 1px solid indigo;
+    color: indigo;
+}

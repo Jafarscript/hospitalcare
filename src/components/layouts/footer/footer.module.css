@@ -1,0 +1,11 @@
+.footer{
+    background-color: indigo;
+    padding: 10px 20px;
+    display: flex;
+}
+
+.footer h3{
+    color: white;
+    font-weight: 300;
+    margin-right: 10px;
+}
